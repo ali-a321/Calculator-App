@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="calculatorframe">
+            
+            <div class="output">
+                <div id ="oldDisplay"></div>
+                <div id="display" ></div>
+            </div>
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button  class="clear" id="clear" >C</button></td>
+                        <td><button  class="operator" id = "divide" >/</button></td>
+                        <td><button  class="operator" id = "multiply">*</button></td>
+                        <td><button  class="backspace" id="backspace" > del </button></td>
+                    </tr>
+                    <tr>
+                        <td><button  class="digit" id = 7 >7</button></td>
+                        <td><button  class="digit" id = 8 >8</button></td>
+                        <td><button  class="digit" id = 9 >9</button></td>
+                        <td><button  class="operator"  id = "minus">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button  class="digit" id = 4 >4</button></td>
+                        <td><button  class="digit" id = 5 >5</button></td>
+                        <td><button  class="digit" id = 6 >6</button></td>
+                        <td><button  class="operator" id = "plus" >+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button  class="digit" id = 1 >1</button></td>
+                        <td><button  class="digit" id = 2 >2</button></td>
+                        <td><button  class="digit" id = 3 >3</button></td>
+                        <td rowspan="2"><button  class = "equals" id="equal" >=</button></td>
+                    </tr>
+                    <tr>
+                       <td colspan = "2"><button class="digit" id= 0 data-xyz = "numzero">0</button></td>
+                       <td><button class="decimal" id = . >.</button></td>
+                       
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+<footer>Made by Ali: <a href="https://github.com/ali-a321"> The Bug Maker </a></footer>
+   
+    <script src="calculator.js"></script> 
+</body>
+</html>
